@@ -10,6 +10,7 @@ public class Alfabeto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        System.out.println("----------------------------->");
         setContentView(R.layout.activity_alfabeto);
     }
 }
