@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".Tela2" />
         <activity android:name=".Tela3" />
-        <activity android:name=".Config" />
         <activity android:name=".Teste" />
         <activity android:name=".Alfabeto"></activity>
     </application>
