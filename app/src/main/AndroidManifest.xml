@@ -19,7 +19,9 @@
         <activity android:name=".Tela2" />
         <activity android:name=".Tela3" />
         <activity android:name=".Teste" />
-        <activity android:name=".Alfabeto"></activity>
+        <activity android:name=".Alfabeto" />
+        <activity android:name=".Alfabeto2" />
+        <activity android:name=".Alfabeto3"></activity>
     </application>
 
 </manifest>
