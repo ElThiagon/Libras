@@ -21,7 +21,12 @@
         <activity android:name=".Teste" />
         <activity android:name=".Alfabeto" />
         <activity android:name=".Alfabeto2" />
-        <activity android:name=".Alfabeto3"></activity>
+        <activity android:name=".Alfabeto3" />
+        <activity android:name=".Alfabeto4" />
+        <activity android:name=".Alfabeto5" />
+        <activity android:name=".Animais" />
+        <activity android:name=".Numeros" />
+        <activity android:name=".Numeros2"></activity>
     </application>
 
 </manifest>
