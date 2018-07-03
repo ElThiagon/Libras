@@ -14,6 +14,9 @@ public class Tela3 extends AppCompatActivity {
     private Intent intent2;
     private Button button3;
     private Intent intent3;
+    private Button button1;
+    private Intent intent1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,7 @@ public class Tela3 extends AppCompatActivity {
         setContentView(R.layout.activity_tela3);
 
         intent = new Intent(this,Alfabeto.class);
+        intent1 = new Intent(this,Teste.class);
         intent2 = new Intent(this, Numeros.class);
         intent3 = new Intent(this,Animais.class);
 
@@ -46,6 +50,14 @@ public class Tela3 extends AppCompatActivity {
 
                startActivity(intent3);
            }
+        });
+
+        button1 = findViewById(R.id.buttonteste);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(intent1);
+            }
         });
 
 

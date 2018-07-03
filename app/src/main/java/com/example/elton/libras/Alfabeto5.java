@@ -18,7 +18,7 @@ public class Alfabeto5 extends AppCompatActivity {
 
         intent = new Intent(this, Alfabeto4.class);
 
-        button = findViewById(R.id.buttonant4);
+        button = findViewById(R.id.buttonant5);
         button.setOnClickListener( new View.OnClickListener() {
             public void onClick(View view) {
                 startActivity(intent);

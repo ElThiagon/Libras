@@ -26,7 +26,8 @@
         <activity android:name=".Alfabeto5" />
         <activity android:name=".Animais" />
         <activity android:name=".Numeros" />
-        <activity android:name=".Numeros2"></activity>
+        <activity android:name=".Numeros2" />
+        <activity android:name=".Animais2" />
     </application>
 
 </manifest>
