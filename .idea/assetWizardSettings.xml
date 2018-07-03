@@ -16,10 +16,26 @@
                             <entry key="launcher">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="80" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundLayerName" value="hangloser.xml" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Área de Trabalho/hangloser.jpg" />
+                                      <entry key="foregroundLayerName" value="hangloser.jpg" />
                                       <entry key="outputName" value="hangloser" />
                                     </map>
                                   </option>
