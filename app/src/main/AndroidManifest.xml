@@ -28,6 +28,10 @@
         <activity android:name=".Numeros" />
         <activity android:name=".Numeros2" />
         <activity android:name=".Animais2" />
+        <activity android:name=".Animais3" />
+        <activity android:name=".Animais4" />
+        <activity android:name=".Animais5" />
+        <activity android:name=".Animais6"></activity>
     </application>
 
 </manifest>

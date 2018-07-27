@@ -6,21 +6,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Animais2 extends AppCompatActivity {
+public class Animais5 extends AppCompatActivity {
 
     private Button button;
     private Intent intent;
     private Button button2;
     private Intent intent2;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animais2);
+        setContentView(R.layout.activity_animais5);
 
-        button = findViewById(R.id.buttonantan2);
-        intent = new Intent(this,Animais.class);
+        button = findViewById(R.id.buttonantan5);
+        intent = new Intent(this,Animais4.class);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,15 +27,14 @@ public class Animais2 extends AppCompatActivity {
             }
         });
 
-        button2 = findViewById(R.id.buttonproxan2);
-        intent2 = new Intent(this, Animais3.class);
+        button2 = findViewById(R.id.buttonproxan5);
+        intent2 = new Intent(this, Animais6.class);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(intent2);
             }
         });
-
-
     }
-}
+    }
+
